@@ -3,8 +3,8 @@ from botocore.exceptions import ClientError
 
 ec2 = boto3.resource("ec2")
 ec2_client = boto3.client("ec2")
-VPCId = "vpc-02d5337f"
-S3_bucket = "arn:aws:s3:::task1sample"
+VPCId = "Entre your VPC ID"
+S3_bucket = "Entre s3 arn number"
 
 def create_flow_log():
     try:

@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 ec2 = boto3.resource("ec2")
 ec2_client = boto3.client("ec2")
 
-FlowLogId = ['fl-00c4625e4537f55af']
+FlowLogId = ['Entre flowlogID']
 
 def get_flow_logs ():
     try:
